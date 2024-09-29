@@ -138,6 +138,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 endif
 endif
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint-service.xiaomi
+
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
